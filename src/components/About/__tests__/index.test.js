@@ -13,7 +13,9 @@ describe('About component', () => {
   // renders About test - declare the component we're testing
   // First Test
   it('renders', () => {
+    // it function, first argument string declaring what is being tested, second callback function runs the test
     render(<About />);
+    // render function to render About component using JSX
   });
 
   // Second Test
