@@ -15,6 +15,7 @@ function Nav(props) {
     console.log(item);
     return item;
   };
+  // ^this is not in the snapshot..
 
   return (
     <header className="flex-row px-1">
